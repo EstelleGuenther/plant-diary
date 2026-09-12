@@ -1,4 +1,4 @@
-# MyPlantDiary - Organizing tool for plants
+# PlantDiary - Organize your plants
 A tool to register your indoor and outdoor plants; to track watering, fertilizing, light conditions, soil comopsition. Send notifications to remind the user to water and fertilize.
 Upload pictures of your plant. Helps track growth. Future: Share your plant pictures with friends.
 Add notes and tags to plant.
