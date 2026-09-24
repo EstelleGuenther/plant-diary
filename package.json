@@ -1,0 +1,34 @@
+{
+  "name": "PlantDiary",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "web": "pnpm --filter web start",
+    "api": "pnpm --filter api dev",
+    "pretty": "pnpm --filter web exec prettier --write src",
+    "lint": "pnpm exec eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.5.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.5.1",
+  "devDependencies": {
+    "@eslint/css": "^2.0.0",
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.1.0",
+    "@eslint/markdown": "^8.0.3",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "jiti": "^2.7.0",
+    "prettier": "^3.9.9",
+    "typescript-eslint": "^8.70.1"
+}
+}
